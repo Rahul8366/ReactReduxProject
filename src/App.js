@@ -13,7 +13,7 @@ function App() {
         <Routes>
         <Route path="/" element={ <ProductListing/> } />
         <Route path="/product/:ProductID" element={ <ProductDetails/> } />
-          <Route>404 Error Found</Route>
+        <Route>404 Error Found</Route>
         </Routes>
       </Router>
     </div>
